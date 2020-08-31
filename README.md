@@ -57,4 +57,3 @@ KNN_MIN only handles files, like HIGGS and SUSY, whose fields are all numeric.
 
 At the end, the program presents each of the lines of the test file with an indication of the corresponding class and the one calculated by KNN_MIN. The tests have been made with test files that already had a class assigned, in order to establish the differences between the real class and the predicted one.
 
-KNN_MIN only handles files, like HIGGS and SUSY, whose fields are all numeric.
