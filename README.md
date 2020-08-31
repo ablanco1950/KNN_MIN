@@ -44,7 +44,7 @@ KNN_MIN.JAR is also attached, which would be copied to the directory C:\Spark\sp
 
 and then, from that directory, assuming HIGGS.csv is in c: directory, the same as HIGGS20Text.txt (which goes with the supplied set of files), running the comand:
 
-spark-submit --master local[2] --executor-memory 2g   --total-executor-cores 2 --class             sparkKNN_MIN.spKNN_MIN.spKNN_MIN.runKNN_MINV7 kNN_MIN.jar    "C:\HIGGS.csv"   "C:\HIGGS20Test.txt" 19 0 4
+spark-submit --master local[2] --executor-memory 2g   --total-executor-cores 2 --class             sparkKNN_MIN.spKNN_MIN.spKNN_MIN.runKNN_MINV7 kNN_MIN.jar    "C:\HIGGS.csv"   "C:\HIGGS20Test.txt" 29 0 4
 
 The same for SUSY.
 
